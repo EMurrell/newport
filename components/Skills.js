@@ -6,7 +6,7 @@ export default function Skills() {
   return (
     <section
       id="About"
-      className="flex flex-row w-full p-4 px-8 tracking-tight bg-offwhite font-display lg:px-28 dark:bg-ltblack text-ltblack dark:text-offwhite "
+      className="flex flex-row w-full p-4 px-8 tracking-tight 2xl:px-32 bg-offwhite font-display lg:px-28 dark:bg-ltblack text-ltblack dark:text-offwhite "
     >
       <div className="flex w-full border-t-2 border-cblack ">
         <div className="flex flex-col w-1/2">
@@ -26,7 +26,7 @@ export default function Skills() {
           </div>
           <div className="flex justify-center pt-24 mt-4 ml-8 md:ml-24 lg:ml-36">
             <FadeUp>
-              <button className="p-2 font-semibold border-2 rounded-sm hover:bg-cblack border-ltblack dark:border-offwhite md:text-lg lg:text-xl">
+              <button className="p-2 font-semibold border-2 rounded-sm hover:bg-crimson border-ltblack dark:border-offwhite md:text-lg lg:text-xl">
                 <a href="#Contact">Contact Me</a>
               </button>
             </FadeUp>

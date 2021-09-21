@@ -42,7 +42,7 @@ export default function Header() {
   return (
     <main
       id="Home"
-      className="w-full h-screen px-5 pt-4 tracking-tight bg-offwhite text-ltblack dark:text-offwhite md:pt-8 md:px-12 lg:px-24 2xl:px-32 dark:bg-ltblack"
+      className="w-full h-screen px-5 pt-4 tracking-tight bg-offwhite text-ltblack dark:text-offwhite md:pt-8 md:px-12 lg:px-28 2xl:px-32 dark:bg-ltblack"
     >
       <motion.div
         initial="hidden"
@@ -70,20 +70,20 @@ export default function Header() {
             ERIC <br /> MURRELL
           </div>
           <button
-            className="inline-flex pt-1 mt-2 text-lg border-t-2 border-ltblack dark:border-offwhite hover:text-cblack dark:hover:text-cblack"
+            className="inline-flex pt-1 mt-2 text-lg border-t-2 border-ltblack dark:border-offwhite hover:text-crimson dark:hover:text-crimson"
             onClick={() => {
               setTheme(theme === "light" ? "dark" : "light");
             }}
           >
-            <SunIcon className="w-4 pt-1 md:-mt-4" />
-            &nbsp;/&nbsp;
-            <MoonIcon className="w-4 pt-1 md:-mt-4" />
+            <SunIcon className="h-5 pt-1 " />
+            <p className="">&nbsp;/&nbsp;</p>
+            <MoonIcon className="h-5 pt-1 " />
           </button>
           <Popover>
             {({ open }) => (
               <>
                 <Popover.Button className="inline-flex items-center justify-center hover:text-mybeige focus:outline-none dark:border-offwhite border-ltblack dark:bg-ltblack">
-                  <span className="pt-2 mt-2 text-sm font-medium border-t-2 md:text-base border-ltblack font-display dark:border-offwhite dark:hover:text-cblack dark:bg-ltblack">
+                  <span className="pt-2 mt-2 text-sm font-medium border-t-2 md:text-base border-ltblack font-display dark:border-offwhite dark:hover:text-crimson dark:bg-ltblack hover:text-crimson">
                     MENU
                   </span>
                 </Popover.Button>
@@ -95,8 +95,8 @@ export default function Header() {
                   } bg-offwhite animate-fade-in-down`}
                 >
                   <div className="inset-y-0 flex justify-end pt-4 pr-4 dark:bg-ltblack">
-                    <Popover.Button className="inline-flex items-center justify-center hover:text-cblack ">
-                      <span className="pt-2 mt-2 font-medium border-t-2 font-display md:mr-20 md:mt-8 dark:border-offwhite border-ltblack">
+                    <Popover.Button className="inline-flex items-center justify-center hover:text-crimson ">
+                      <span className="pt-2 mt-2 font-medium border-t-2 font-display md:mr-20 lg:mr-24 md:mt-8 dark:border-offwhite border-ltblack">
                         CLOSE
                       </span>
                     </Popover.Button>
@@ -116,7 +116,7 @@ export default function Header() {
                             item.current
                               ? "bg-offwhite dark:bg-ltblack  "
                               : "text-ltblack   dark:text-offwhite",
-                            " px-3 py-6  text-4xl md:text-5xl font-medium font-display flex hover:text-cblack dark:hover:text-cblack "
+                            " px-3 py-6  text-4xl md:text-5xl font-medium font-display flex hover:text-crimson dark:hover:text-crimson "
                           )}
                           aria-current={item.current ? "page" : undefined}
                         >
@@ -186,7 +186,7 @@ export default function Header() {
           <p className="flex pl-1 -mb-8 text-lg font-medium lg:-mb-12 font-display md:text-3xl lg:text-4xl">
             Full Stack
           </p>
-          <h1 className="text-6xl font-bold font-display md:text-8xl lg:text-9xl">
+          <h1 className="text-6xl font-bold font-display md:text-8xl lg:text-9xl ">
             &emsp;&emsp;&ensp;Web
           </h1>
 

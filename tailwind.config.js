@@ -8,10 +8,10 @@ module.exports = {
         ltblack: "#20201e",
         cblack: "#7a7a78",
         dkgreen: "#b9baa3",
-        ltgreen: "#d6d5c9",
-        offwhite: "#e9e8e3",
+
+        offwhite: "#d6d5c9",
         orange: "#ff6600",
-        crimson: "#c21807",
+        crimson: "#e32636",
       },
       keyframes: {
         "fade-in-down": {

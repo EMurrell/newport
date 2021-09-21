@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="flex items-center justify-center w-full mx-8 border-t-2 md:mx-28 border-cblack ">
         <a
           href="/#"
-          className="font-medium text-center md:text-xl text-mybeige font-display hover:text-cblack"
+          className="font-medium text-center md:text-xl text-mybeige font-display hover:text-crimson dk:hover:crimson"
         >
           © {getCurrentYear()} EMurrell.com
         </a>
