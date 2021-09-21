@@ -10,19 +10,19 @@ export default function Meta() {
         name="description"
         content="Eric Murrell- Web Developer Portfolio"
       />
-      {/* <meta property="og:image" content="/previewpic.jpg" /> */}
+      <meta property="og:image" content="/metaimage1.jpg" />
       <meta property="og:title" content="EMurrell.com" />
       <meta
         property="og:description"
         content="Eric Murrell Web Developer Portfolio"
       />
-      {/* <meta name="twitter:image" content="/previewpic.jpg" /> */}
+      <meta name="twitter:image" content="/metaimage1.jpg" />
       <meta name="twitter:title" content="EMurrell.com" />
       <meta
         name="twitter:description"
         content="Eric Murrell Web Developer Portfolio"
       />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/em.png" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link
         rel="preconnect"
