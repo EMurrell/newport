@@ -42,7 +42,7 @@ export default function Header() {
   return (
     <main
       id="Home"
-      className="w-full h-screen px-5 pt-4 bg-offwhite text-ltblack dark:text-offwhite md:pt-8 md:px-12 lg:px-24 2xl:px-32 dark:bg-ltblack"
+      className="w-full h-screen px-5 pt-4 tracking-tight bg-offwhite text-ltblack dark:text-offwhite md:pt-8 md:px-12 lg:px-24 2xl:px-32 dark:bg-ltblack"
     >
       <motion.div
         initial="hidden"
@@ -218,7 +218,7 @@ export default function Header() {
           <div className="flex flex-row pt-16">
             <div className="w-1/2 "></div>
 
-            <div className="flex w-1/2 pr-2 text-sm font-medium tracking-wider md:text-base lg:text-xl font-display md:px-20">
+            <div className="flex w-1/2 pr-2 text-base font-medium tracking-tight md:text-lg lg:text-2xl font-display md:px-20">
               Hello, my name is Eric. I am a self-taught programmer and design
               enthusiast. <br /> I live in Canada.
             </div>
@@ -245,7 +245,7 @@ export default function Header() {
             },
           }}
         >
-          <p className="pl-12 mb-12 -ml-16 text-sm text-right -rotate-90 w-36 md:text-sm font-display">
+          <p className="pl-12 mb-8 -ml-16 text-sm text-right -rotate-90 w-44 md:text-sm font-display">
             scroll down
           </p>
         </motion.div>

@@ -7,7 +7,7 @@ export default function Work() {
     <>
       <section
         id="Work"
-        className="flex flex-col w-full px-5 pt-4 pb-10 font-bold md:pt-24 bg-offwhite dark:bg-ltblack dark:text-offwhite md:px-8 2xl:px-16 text-ltblack font-display"
+        className="flex flex-col w-full px-5 pt-4 pb-10 font-bold tracking-tight md:pt-24 bg-offwhite dark:bg-ltblack dark:text-offwhite md:px-8 2xl:px-16 text-ltblack font-display"
       >
         <div className="flex mx-4 border-t-2 border-cblack lg:mx-20">
           <div className="flex justify-center w-1/2 py-6 pl-6 md:pl-2 lg:pl-8 ">
