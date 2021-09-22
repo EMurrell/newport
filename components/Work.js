@@ -17,7 +17,7 @@ export default function Work() {
                 Work
               </h1>
               <img
-                src="se-arrow-grey.png"
+                src="/se-arrow-grey.png"
                 width="80"
                 height="auto"
                 alt="arrow"
@@ -32,7 +32,7 @@ export default function Work() {
             <a href="https://www.masonstouch.com">
               <div className="flex flex-col p-2 my-4 cursor-pointer w-80 md:w-96 hover:text-crimson dark:hover:text-crimson">
                 <img
-                  src="mtc.jpg"
+                  src="/mtc.jpg"
                   alt="masons touch construction"
                   className="transition duration-500 ease-in-out transform hover:scale-105"
                 />
@@ -50,7 +50,7 @@ export default function Work() {
             <a href="https://puptopal.netlify.app">
               <div className="flex flex-col p-2 my-4 cursor-pointer w-80 md:w-96 hover:text-crimson dark:hover:text-crimson">
                 <img
-                  src="ptp.jpg"
+                  src="/ptp.jpg"
                   alt="pup to pal"
                   className="transition duration-500 ease-in-out transform hover:scale-105"
                 />

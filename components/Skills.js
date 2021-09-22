@@ -17,7 +17,7 @@ export default function Skills() {
           <div className="flex justify-center mt-4 ml-16 md:ml-24 lg:ml-48">
             <FadeUp>
               <img
-                src="se-arrow-grey.png"
+                src="/se-arrow-grey.png"
                 width="80"
                 height="auto"
                 alt="arrow"
@@ -36,13 +36,13 @@ export default function Skills() {
         <div className="flex flex-col justify-center w-1/2 pt-32 lg:pt-80 lg:pr-24 lg:flex-row lg:justify-around lg:text-xl">
           <div className="flex font-bold ">
             <FadeUp>
-              <ul className="py-2 ml-4 border-b-2 border-ltblack dark:border-offwhite">
+              <ul className="py-2 ml-4 border-b-2 border-cblack dark:border-cblack">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Javascript</li>
               </ul>
 
-              <ul className="py-2 ml-4 border-b-2 border-ltblack dark:border-offwhite lg:border-0">
+              <ul className="py-2 ml-4 border-b-2 border-cblack dark:border-cblack lg:border-0">
                 <li>React</li>
                 <li>Next.js</li>
                 <li>TailwindCSS</li>
@@ -51,7 +51,7 @@ export default function Skills() {
           </div>
           <div className="flex font-bold ">
             <FadeUp>
-              <ul className="py-2 ml-4 border-b-2 border-ltblack dark:border-offwhite">
+              <ul className="py-2 ml-4 border-b-2 border-cblack dark:border-cblack">
                 <li>Node.js</li>
                 <li>MongoDB</li>
                 <li>Github</li>

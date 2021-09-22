@@ -22,7 +22,7 @@ export default function Meta() {
         name="twitter:description"
         content="Eric Murrell Web Developer Portfolio"
       />
-      <link rel="icon" href="/em.png" />
+      <link rel="icon" href="/emfavi-png.png" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link
         rel="preconnect"
