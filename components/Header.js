@@ -83,7 +83,7 @@ export default function Header() {
             {({ open }) => (
               <>
                 <Popover.Button className="inline-flex items-center justify-center hover:text-mybeige focus:outline-none dark:border-offwhite border-ltblack dark:bg-ltblack">
-                  <span className="pt-2 mt-2 text-sm font-medium border-t-2 md:text-base border-ltblack font-display dark:border-offwhite dark:hover:text-crimson dark:bg-ltblack hover:text-crimson">
+                  <span className="pt-2 mt-2 text-sm font-medium border-t-2 md:text-base border-ltblack font-display dark:border-offwhite dark:hover:text-crimson dark:bg-ltblack hover:text-crimson hover:font-bold">
                     MENU
                   </span>
                 </Popover.Button>
@@ -136,7 +136,7 @@ export default function Header() {
       </motion.div>
 
       <div className="flex flex-col justify-center w-full h-screen bg-offwhite dark:bg-ltblack">
-        <div className="flex self-end pb-6 pr-12 -mt-32 md:-mt-16 ">
+        <div className="flex self-end pb-4 pr-12 -mt-40 md:-mt-20 ">
           <motion.svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-36 h-36"

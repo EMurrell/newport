@@ -6,7 +6,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="flex w-full tracking-tight h-28 dark:bg-ltblack dark:text-offwhite bg-offwhite text-ltblack">
+    <footer className="flex w-full h-32 tracking-tight dark:bg-ltblack dark:text-offwhite bg-offwhite text-ltblack">
       <div className="flex items-center justify-center w-full mx-8 border-t-2 md:mx-28 border-cblack ">
         <a
           href="/#"
