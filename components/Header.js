@@ -27,10 +27,10 @@ const icon = {
 const navigation = [
   // { name: "Home", href: "#", current: true },
 
-  { name: "Home", href: "#Home", current: false },
-  { name: "About", href: "#About", current: false },
-  { name: "Work", href: "#Work", current: false },
-  { name: "Contact", href: "#Contact", current: false },
+  { name: "Home", href: "#Home", current: false, id: 1 },
+  { name: "About", href: "#About", current: false, id: 2 },
+  { name: "Work", href: "#Work", current: false, id: 3 },
+  { name: "Contact", href: "#Contact", current: false, id: 4 },
 ];
 
 function classNames(...classes) {
@@ -96,7 +96,7 @@ export default function Header() {
                 >
                   <div className="inset-y-0 flex justify-end pt-4 pr-4 dark:bg-ltblack">
                     <Popover.Button className="inline-flex items-center justify-center hover:text-crimson ">
-                      <span className="pt-2 mt-2 font-medium border-t-2 font-display md:mr-20 lg:mr-24 md:mt-8 dark:border-offwhite border-ltblack">
+                      <span className="pt-2 mt-2 font-medium border-t-2 font-display md:mr-20 lg:mr-24 md:mt-8 hover:font-bold dark:border-offwhite border-ltblack">
                         CLOSE
                       </span>
                     </Popover.Button>
@@ -110,7 +110,7 @@ export default function Header() {
                         onClick={() => (open = false)}
                       >
                         <a
-                          key={item.name}
+                          key={item.id}
                           href={item.href}
                           className={classNames(
                             item.current
@@ -219,7 +219,7 @@ export default function Header() {
             <div className="w-1/2 "></div>
 
             <div className="flex w-1/2 pr-2 text-base font-medium tracking-tight md:text-lg lg:text-2xl font-display md:px-20">
-              Hello, my name is Eric. I am a self-taught programmer and design
+              Hello, my name is Eric. I am a Jamstack programmer and design
               enthusiast. <br /> I live in Canada.
             </div>
           </div>

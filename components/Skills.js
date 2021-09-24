@@ -26,7 +26,7 @@ export default function Skills() {
           </div>
           <div className="flex justify-center pt-24 mt-4 ml-8 md:ml-24 lg:ml-36">
             <FadeUp>
-              <button className="p-2 font-semibold transition duration-300 ease-in-out transform border-2 rounded-sm hover:bg-crimson border-ltblack dark:border-offwhite md:text-lg lg:text-xl hover:scale-105">
+              <button className="p-2 font-semibold transition duration-300 ease-in-out transform border-2 rounded-sm hover:scale-105 hover:bg-crimson border-ltblack dark:border-offwhite md:text-lg lg:text-xl ">
                 <a href="#Contact">Contact Me</a>
               </button>
             </FadeUp>
