@@ -25,8 +25,6 @@ const icon = {
 };
 
 const navigation = [
-  // { name: "Home", href: "#", current: true },
-
   { name: "Home", href: "#Home", current: false, id: 1 },
   { name: "About", href: "#About", current: false, id: 2 },
   { name: "Work", href: "#Work", current: false, id: 3 },
@@ -136,10 +134,10 @@ export default function Header() {
       </motion.div>
 
       <div className="flex flex-col justify-center w-full h-screen bg-offwhite dark:bg-ltblack">
-        <div className="flex self-end pb-4 pr-12 -mt-40 md:-mt-20 ">
+        <div className="flex self-end pb-10 pr-12 -mt-40 md:pb-2 md:-mt-24 ">
           <motion.svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-36 h-36"
+            className="w-36 h-36 lg:w-40 lg:h-40"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"

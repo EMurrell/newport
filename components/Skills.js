@@ -6,7 +6,7 @@ export default function Skills() {
   return (
     <section
       id="About"
-      className="flex flex-row w-full p-4 px-8 tracking-tight 2xl:px-32 bg-offwhite font-display lg:px-28 dark:bg-ltblack text-ltblack dark:text-offwhite "
+      className="flex flex-row w-full p-4 px-8 pb-8 tracking-tight 2xl:px-32 bg-offwhite font-display lg:px-28 dark:bg-ltblack text-ltblack dark:text-offwhite "
     >
       <div className="flex w-full border-t-2 border-cblack ">
         <div className="flex flex-col w-1/2">

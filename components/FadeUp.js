@@ -20,7 +20,7 @@ function FadeUp({ children, isVisible }) {
       transition={{ delay: 0.4, type: "spring", stiffness: 40 }}
       variants={{
         visible: { opacity: 1, scale: 1, y: 0 },
-        hidden: { opacity: 0, scale: 1, y: 60 },
+        hidden: { opacity: 0, scale: 1, y: 50 },
       }}
     >
       {children}

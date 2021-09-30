@@ -25,12 +25,12 @@ export default function Ptp() {
               </h3>
             </div>
             <div className="inline-flex justify-center py-4 md:justify-end ">
-              <button className="inline-flex px-4 py-1 my-4 font-medium transition duration-300 ease-in-out transform border rounded-sm hover:scale-105 hover:bg-crimson border-ltblack dark:border-offwhite">
+              <button className="inline-flex px-4 py-1 my-4 font-medium transition duration-300 ease-in-out transform border-2 rounded-sm hover:scale-105 hover:bg-crimson border-ltblack dark:border-offwhite">
                 <a
                   className="text-base md:text-lg lg:text-xl "
                   href="https://puptopal.netlify.app"
                 >
-                  VIEW LIVE SITE&nbsp;
+                  VISIT WEBSITE&nbsp;
                 </a>
                 <ExternalLinkIcon className="h-5 md:h-6" />
               </button>

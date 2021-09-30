@@ -2,6 +2,7 @@ import Head from "next/head";
 import FadeUp from "./FadeUp";
 import Link from "next/link";
 import { ExternalLinkIcon } from "@heroicons/react/outline";
+import ProjectCard from "../components/ProjectCard";
 
 export default function Work() {
   return (
@@ -28,33 +29,7 @@ export default function Work() {
         </div>
 
         <div className="flex flex-col lg:flex-row md:justify-evenly">
-          <FadeUp>
-            <Link href="/mtc">
-              <div className="flex flex-col p-4 my-4 transition duration-300 ease-in-out transform cursor-pointer w-80 md:w-96 hover:text-crimson dark:hover:text-crimson hover:scale-105">
-                <img src="/mtc.jpg" alt="masons touch construction" />
-                <div className="flex flex-col my-2 text-lg border-t border-b border-cblack dark:border-offwhite md:text-xl lg:text-xl">
-                  <h3 className="inline-flex justify-between font-bold">
-                    Mason's Touch Construction
-                    <ExternalLinkIcon className="h-6" />
-                  </h3>
-                  <p className="font-light">Website Redesign/Rebuild</p>
-                </div>
-              </div>
-            </Link>
-          </FadeUp>
-          <FadeUp>
-            <Link href="/ptp">
-              <div className="flex flex-col p-4 my-4 transition duration-300 ease-in-out transform cursor-pointer w-80 md:w-96 hover:text-crimson dark:hover:text-crimson hover:scale-105">
-                <img src="/ptp.jpg" alt="pup to pal" className="" />
-                <div className="flex flex-col my-2 text-lg border-t border-b border-cblack dark:border-offwhite md:text-xl lg:text-xl">
-                  <h3 className="inline-flex justify-between font-bold">
-                    Pup To Pal <ExternalLinkIcon className="h-6" />
-                  </h3>
-                  <p className="font-light">Website and Content Creation</p>
-                </div>
-              </div>
-            </Link>
-          </FadeUp>
+          <ProjectCard />
         </div>
       </section>
     </>
