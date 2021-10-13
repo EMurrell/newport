@@ -15,21 +15,20 @@ export default function Mtc() {
       >
         <FadeUp>
           <div className="inline-flex justify-between w-full pt-2 mt-2 text-sm border-t-2 border-ltblack dark:border-offwhite md:text-base">
-            <p>Mason's Touch</p>
+            <p>Professional Portfolio</p>
             <p>Case Study</p>
           </div>
           <div className="flex flex-col">
             <div className="flex pt-12 lg:pt-24">
               <h3 className="pr-16 text-2xl font-medium md:text-2xl lg:text-3xl md:pr-96">
-                Mason's Touch is a masonry and foundation repair business in
-                Ottawa, ON.
+                A portfolio website to showcase my skills and work projects.
               </h3>
             </div>
             <div className="inline-flex justify-center py-4 md:justify-end ">
               <button className="inline-flex px-4 py-1 my-4 font-medium transition duration-300 ease-in-out transform border-2 rounded-sm hover:scale-105 hover:bg-crimson border-ltblack dark:border-offwhite">
                 <a
                   className="text-base md:text-lg lg:text-xl "
-                  href="https://masonstouch.com"
+                  href="https://emurrell.com"
                 >
                   VISIT WEBSITE&nbsp;
                 </a>
@@ -40,20 +39,23 @@ export default function Mtc() {
               <div className="pr-10 text-xl lg:w-1/2 md:text-xl lg:text-2xl">
                 <p className="pb-6 lg:pb-20">
                   <strong>Brief:</strong>
-                  <br /> Redesign/develop a modern website to replace an
-                  outdated and unresponsive site.
+                  <br /> I saught to create a portfolio site that would
+                  challenge my skill-levels for both design and development. My
+                  approach was to incorporate elements of swiss/international
+                  design, minimalism, bold typography, and dark-mode
+                  functionality.
                 </p>
                 <p>
                   <strong>Tools:</strong>
                   <br />
-                  Next.js (React), Tailwind CSS / UI, Framer-Motion, HeadlessUI,
-                  Affinity Photo.
+                  Next.js (React), Tailwind CSS / UI, Framer-Motion, Next-themes
+                  (dark-mode) Affinity Photo.
                 </p>
               </div>
               <div className="flex justify-center rounded lg:justify-end lg:w-1/2 ">
-                <a href="https://masonstouch.com">
+                <a href="https://emurrell.com">
                   <img
-                    src="/mtcsquare.jpg"
+                    src="/portfolio-square.jpg"
                     alt="picture of website"
                     width="350"
                     height="auto"

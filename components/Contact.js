@@ -29,11 +29,9 @@ export default function Contact() {
       <div className="flex flex-col justify-center w-1/2 font-bold pt-28 md:pl-12 lg:pt-52 lg:text-xl">
         <div className="flex md:pl-12">
           <FadeUp>
-            <ul className="py-4 border-b-2 border-cblack ">
-              <li className="inline-flex transition duration-300 ease-in-out transform hover:text-crimson hover:scale-105">
-                <a href="mailto:emurrell.dev@gmail.com">
-                  Email&emsp;&emsp;&emsp;&ensp;
-                </a>
+            <ul className="flex flex-col py-4 border-b-2 border-cblack ">
+              <li className="inline-flex justify-between transition duration-300 ease-in-out transform hover:text-crimson hover:scale-105">
+                <a href="mailto:emurrell.dev@gmail.com">Email</a>
                 <ExternalLinkIcon className="h-5 md:h-6" />
               </li>
               <li className="text-xs font-normal md:text-base">
@@ -41,11 +39,9 @@ export default function Contact() {
               </li>
             </ul>
 
-            <ul className="py-4 border-b-2 border-cblack ">
-              <li className="inline-flex transition duration-300 ease-in-out transform hover:text-crimson hover:scale-105">
-                <a href="https://github.com/EMurrell">
-                  Github&emsp;&emsp;&emsp;
-                </a>
+            <ul className="flex flex-col py-4 border-b-2 border-cblack">
+              <li className="inline-flex justify-between transition duration-300 ease-in-out transform hover:text-crimson hover:scale-105">
+                <a href="https://github.com/EMurrell">Github</a>
                 <ExternalLinkIcon className="h-5 md:h-6" />
               </li>
               <li className="text-xs font-normal md:text-base">
@@ -53,15 +49,22 @@ export default function Contact() {
               </li>
             </ul>
 
-            <ul className="py-4 ">
-              <li className="inline-flex transition duration-300 ease-in-out transform hover:text-crimson hover:scale-105">
-                <a href="https://twitter.com/MurrellWeb">
-                  Twitter&emsp;&emsp;&emsp;
-                </a>
+            <ul className="flex flex-col py-4 border-b-2 border-cblack ">
+              <li className="inline-flex justify-between transition duration-300 ease-in-out transform hover:text-crimson hover:scale-105">
+                <a href="https://twitter.com/MurrellWeb">Twitter</a>
                 <ExternalLinkIcon className="h-5 md:h-6" />
               </li>
               <li className="text-xs font-normal md:text-base">
                 twitter.com/MurrellWeb
+              </li>
+            </ul>
+            <ul className="flex flex-col py-4 ">
+              <li className="inline-flex justify-between transition duration-300 ease-in-out transform hover:text-crimson hover:scale-105">
+                <a href="https://dev.to/emurrell">Dev.to</a>
+                <ExternalLinkIcon className="flex h-5 md:h-6 justify-self-end" />
+              </li>
+              <li className="text-xs font-normal md:text-base">
+                dev.to/emurrell
               </li>
             </ul>
           </FadeUp>

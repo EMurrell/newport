@@ -53,6 +53,7 @@ export default function Ptp() {
                 <a href="https://puptopal.netlify.app">
                   <img
                     src="/ptpsquare.jpg"
+                    alt="picture of website"
                     width="350"
                     height="auto"
                     className="px-6 py-24 transition duration-300 ease-in-out transform md:p-0 hover:scale-105"

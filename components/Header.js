@@ -80,8 +80,8 @@ export default function Header() {
           <Popover>
             {({ open }) => (
               <>
-                <Popover.Button className="inline-flex items-center justify-center hover:text-mybeige focus:outline-none dark:border-offwhite border-ltblack dark:bg-ltblack">
-                  <span className="pt-2 mt-2 text-sm font-medium border-t-2 md:text-base border-ltblack font-display dark:border-offwhite dark:hover:text-crimson dark:bg-ltblack hover:text-crimson hover:font-bold">
+                <Popover.Button className="inline-flex items-center justify-center focus:outline-none dark:border-offwhite border-ltblack dark:bg-ltblack">
+                  <span className="pt-2 mt-2 text-sm font-medium border-t-2 md:text-base border-ltblack font-display dark:border-offwhite dark:hover:text-crimson dark:bg-ltblack hover:text-crimson hover:font-semibold">
                     MENU
                   </span>
                 </Popover.Button>
@@ -114,7 +114,7 @@ export default function Header() {
                             item.current
                               ? "bg-offwhite dark:bg-ltblack  "
                               : "text-ltblack   dark:text-offwhite",
-                            " px-3 py-6  text-4xl md:text-5xl font-medium font-display flex hover:text-crimson dark:hover:text-crimson "
+                            " px-3 py-6  text-4xl md:text-5xl lg:px-32 font-medium font-display flex hover:text-crimson dark:hover:text-crimson "
                           )}
                           aria-current={item.current ? "page" : undefined}
                         >
@@ -134,7 +134,7 @@ export default function Header() {
       </motion.div>
 
       <div className="flex flex-col justify-center w-full h-screen bg-offwhite dark:bg-ltblack">
-        <div className="flex self-end pb-10 pr-12 -mt-40 md:pb-2 md:-mt-24 ">
+        <div className="flex self-end pb-10 pr-12 -mt-28 md:pb-2 md:-mt-16 md:mr-12">
           <motion.svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-36 h-36 lg:w-40 lg:h-40"
