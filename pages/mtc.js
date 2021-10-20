@@ -37,7 +37,7 @@ export default function Mtc() {
               </button>
             </div>
             <div className="flex flex-col md:flex-row">
-              <div className="pr-10 text-xl lg:w-1/2 md:text-xl lg:text-2xl">
+              <div className="pr-10 text-xl lg:w-1/2 md:w-2/3 md:text-xl lg:text-2xl">
                 <p className="pb-6 lg:pb-20">
                   <strong>Brief:</strong>
                   <br /> Redesign/develop a modern website to replace an
@@ -55,9 +55,9 @@ export default function Mtc() {
                   <img
                     src="/mtcsquare.jpg"
                     alt="picture of website"
-                    width="350"
+                    width="300"
                     height="auto"
-                    className="px-6 py-24 transition duration-300 ease-in-out transform md:p-0 hover:scale-105"
+                    className="px-6 py-20 transition duration-300 ease-in-out transform md:p-0 hover:scale-105"
                   />
                 </a>
               </div>

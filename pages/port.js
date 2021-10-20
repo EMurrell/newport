@@ -11,7 +11,7 @@ export default function Mtc() {
       <Meta />
       <section
         id="mtc"
-        className="w-full px-5 pt-4 tracking-tight md:h-screen font-display bg-offwhite text-ltblack dark:text-offwhite md:pt-8 md:px-12 lg:px-24 2xl:px-32 dark:bg-ltblack"
+        className="w-full px-5 pt-4 tracking-tight font-display bg-offwhite text-ltblack dark:text-offwhite md:pt-8 md:px-12 lg:px-24 2xl:px-32 dark:bg-ltblack"
       >
         <FadeUp>
           <div className="inline-flex justify-between w-full pt-2 mt-2 text-sm border-t-2 border-ltblack dark:border-offwhite md:text-base">
@@ -36,8 +36,8 @@ export default function Mtc() {
               </button>
             </div>
             <div className="flex flex-col md:flex-row">
-              <div className="pr-10 text-xl lg:w-1/2 md:text-xl lg:text-2xl">
-                <p className="pb-6 lg:pb-20">
+              <div className="pb-6 pr-10 text-xl lg:pb-12 md:w-2/3 md:text-xl lg:text-2xl lg:w-1/2">
+                <p className="pb-6 lg:pb-16">
                   <strong>Brief:</strong>
                   <br /> I saught to create a portfolio site that would
                   challenge my skill-levels for both design and development. My
@@ -57,7 +57,7 @@ export default function Mtc() {
                   <img
                     src="/portfolio-square.jpg"
                     alt="picture of website"
-                    width="350"
+                    width="300"
                     height="auto"
                     className="px-6 py-24 transition duration-300 ease-in-out transform md:p-0 hover:scale-105"
                   />

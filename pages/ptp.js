@@ -28,7 +28,7 @@ export default function Ptp() {
               <button className="inline-flex px-4 py-1 my-4 font-medium transition duration-300 ease-in-out transform border-2 rounded-sm hover:scale-105 hover:bg-crimson border-ltblack dark:border-offwhite">
                 <a
                   className="text-base md:text-lg lg:text-xl "
-                  href="https://puptopal.netlify.app"
+                  href="https://www.puptopal.com"
                 >
                   VISIT WEBSITE&nbsp;
                 </a>
@@ -36,7 +36,7 @@ export default function Ptp() {
               </button>
             </div>
             <div className="flex flex-col md:flex-row">
-              <div className="pr-10 text-xl lg:w-1/2 md:text-xl lg:text-2xl">
+              <div className="pr-10 text-xl md:w-2/3 lg:w-1/2 md:text-xl lg:text-2xl">
                 <p className="pb-6 lg:pb-20">
                   <strong>Brief:</strong>
                   <br /> Design and develop a modern and concise website. Write
@@ -50,13 +50,13 @@ export default function Ptp() {
                 </p>
               </div>
               <div className="flex justify-center rounded lg:justify-end lg:w-1/2 ">
-                <a href="https://puptopal.netlify.app">
+                <a href="https://www.puptopal.com">
                   <img
                     src="/ptpsquare.jpg"
                     alt="picture of website"
-                    width="350"
+                    width="300"
                     height="auto"
-                    className="px-6 py-24 transition duration-300 ease-in-out transform md:p-0 hover:scale-105"
+                    className="px-6 py-20 transition duration-300 ease-in-out transform md:p-0 hover:scale-105"
                   />
                 </a>
               </div>
