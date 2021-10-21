@@ -134,10 +134,10 @@ export default function Header() {
       </motion.div>
 
       <div className="flex flex-col justify-center w-full h-screen bg-offwhite dark:bg-ltblack">
-        <div className="flex self-end pb-10 pr-12 -mt-28 md:pb-2 md:-mt-16 md:mr-12">
+        <div className="flex self-end pb-6 pr-12 -mt-32 md:pb-0 md:-mt-32 lg:-mt-20 md:mr-12">
           <motion.svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-36 h-36 lg:w-40 lg:h-40"
+            className="w-36 h-36 md:w-44 md:h-44 lg:w-48 lg:h-48 "
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -184,7 +184,7 @@ export default function Header() {
           <p className="flex pl-1 -mb-8 text-lg font-medium lg:-mb-12 font-display md:text-3xl lg:text-4xl">
             Full Stack
           </p>
-          <h1 className="text-6xl font-bold font-display md:text-8xl lg:text-9xl ">
+          <h1 className="text-6xl font-bold font-display md:text-8xl lg:text-9xl">
             &emsp;&emsp;&ensp;Web
           </h1>
 
@@ -213,12 +213,12 @@ export default function Header() {
             },
           }}
         >
-          <div className="flex flex-row pt-16">
+          <div className="flex flex-row pt-12">
             <div className="w-1/2 "></div>
 
-            <div className="flex w-1/2 pr-2 text-base font-medium tracking-tight md:text-lg lg:text-2xl font-display md:px-20">
-              Hello, my name is Eric. I am a Jamstack programmer and design
-              enthusiast. <br /> I live in Canada.
+            <div className="flex w-3/5 pr-2 text-lg font-medium md:text-2xl lg:text-3xl font-display md:px-12">
+              Hello, my name is Eric. I design and develop fast, modern JAMstack
+              websites. I live in Canada.
             </div>
           </div>
         </motion.div>
