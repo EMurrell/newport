@@ -4,7 +4,6 @@ export default function Meta() {
   return (
     <Head>
       <title>EMurrell.com</title>
-      <html lang="en" />
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta
