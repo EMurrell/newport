@@ -8,19 +8,19 @@ export default function Meta() {
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta
         name="description"
-        content="Eric Murrell- Web Developer Portfolio"
+        content="Eric Murrell- Full Stack Web Developer"
       />
-      <meta property="og:image" content="/metaimage1.jpg" />
+      <meta property="og:image" content="/meta99.jpg" />
       <meta property="og:title" content="EMurrell.com" />
       <meta
         property="og:description"
-        content="Eric Murrell Web Developer Portfolio"
+        content="Eric Murrell- Full Stack Web Developer"
       />
-      <meta name="twitter:image" content="/metaimage1.jpg" />
+      <meta name="twitter:image" content="/meta99.jpg" />
       <meta name="twitter:title" content="EMurrell.com" />
       <meta
         name="twitter:description"
-        content="Eric Murrell Web Developer Portfolio"
+        content="Eric Murrell- Full Stack Web Developer"
       />
       <link rel="icon" href="/emfavi-png.png" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
