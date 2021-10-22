@@ -10,13 +10,13 @@ export default function Meta() {
         name="description"
         content="Eric Murrell- Full Stack Web Developer"
       />
-      <meta property="og:image" content="/meta99.jpg" />
+      <meta property="og:image" content="/meta999.jpg" />
       <meta property="og:title" content="EMurrell.com" />
       <meta
         property="og:description"
         content="Eric Murrell- Full Stack Web Developer"
       />
-      <meta name="twitter:image" content="/meta99.jpg" />
+      <meta name="twitter:image" content="/meta999.jpg" />
       <meta name="twitter:title" content="EMurrell.com" />
       <meta
         name="twitter:description"
