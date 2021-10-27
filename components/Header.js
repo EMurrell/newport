@@ -104,6 +104,7 @@ export default function Header() {
                   <div className="flex flex-col w-full h-screen px-5 pt-16 pb-3 space-y-1 md:px-12 lg:px-24 2xl:px-32 dark:bg-ltblack ">
                     {navigation.map((item) => (
                       <Popover.Button
+                        key={item.id}
                         className="mt-24 animate-fade-in-down "
                         onClick={() => (open = false)}
                       >
