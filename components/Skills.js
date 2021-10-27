@@ -33,7 +33,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center w-1/2 pt-32 lg:pt-80 lg:pr-24 lg:flex-row lg:justify-around lg:text-xl">
+        <div className="flex flex-col justify-center w-1/2 pt-32 lg:pt-80 lg:pr-24 lg:flex-row lg:justify-around lg:text-xl xl:text-2xl">
           <div className="flex font-bold ">
             <FadeUp>
               <ul className="py-2 ml-4 border-b-2 border-cblack dark:border-cblack">
@@ -42,7 +42,7 @@ export default function Skills() {
                 <li>Javascript</li>
               </ul>
 
-              <ul className="py-2 ml-4 border-b-2 border-cblack dark:border-cblack lg:border-0">
+              <ul className="py-2 pr-4 ml-4 border-b-2 border-cblack dark:border-cblack lg:border-0">
                 <li>React</li>
                 <li>Next.js</li>
                 <li>TailwindCSS</li>
@@ -53,7 +53,7 @@ export default function Skills() {
             <FadeUp>
               <ul className="py-2 ml-4 border-b-2 border-cblack dark:border-cblack">
                 <li>Node.js</li>
-                <li>MongoDB</li>
+                <li>Netlify / Vercel</li>
                 <li>Github</li>
               </ul>
               <ul className="py-2 ml-4 ">

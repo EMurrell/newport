@@ -28,7 +28,7 @@ export default function Work() {
           </div>
         </div>
 
-        <div className="flex flex-col flex-wrap md:justify-evenly md:flex-row lg:mx-16">
+        <div className="flex flex-col flex-wrap md:justify-evenly md:flex-row lg:mx-10">
           <ProjectCard />
         </div>
       </section>

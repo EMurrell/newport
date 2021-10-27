@@ -4,7 +4,7 @@ import { motion, useAnimation, AnimatePresence } from "framer-motion";
 
 function FadeUp({ children, isVisible }) {
   const controls = useAnimation();
-  const [ref, inView] = useInView();
+  const [ref, inView] = useInView({ threshold: 0.4 });
 
   useEffect(() => {
     if (inView) {

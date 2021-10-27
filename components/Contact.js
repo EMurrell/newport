@@ -26,7 +26,7 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center w-1/2 font-bold pt-28 md:pl-12 lg:pt-52 lg:text-xl">
+      <div className="flex flex-col justify-center w-1/2 font-bold pt-28 md:pl-12 lg:pt-52 lg:text-2xl">
         <div className="flex md:pl-12">
           <FadeUp>
             <ul className="flex flex-col py-4 border-b-2 border-cblack ">
@@ -34,7 +34,7 @@ export default function Contact() {
                 <a href="mailto:emurrell.dev@gmail.com">Email</a>
                 <ExternalLinkIcon className="h-5 md:h-6" />
               </li>
-              <li className="text-xs font-normal md:text-base">
+              <li className="text-xs font-normal md:text-base ">
                 emurrell.dev@gmail.com
               </li>
             </ul>
