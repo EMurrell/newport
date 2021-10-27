@@ -213,7 +213,7 @@ export default function Header() {
             },
           }}
         >
-          <div className="flex flex-row pt-12">
+          <div className="flex flex-row pt-12 pb-6">
             <div className="w-1/2 "></div>
 
             <div className="flex w-3/5 pr-2 text-lg font-medium md:text-2xl lg:text-3xl font-display md:px-12">
@@ -243,7 +243,7 @@ export default function Header() {
             },
           }}
         >
-          <p className="pl-12 mb-8 -ml-16 text-sm text-right -rotate-90 w-44 md:text-sm font-display">
+          <p className="w-56 mb-12 -ml-24 text-sm text-right -rotate-90 md:text-sm font-display">
             scroll down
           </p>
         </motion.div>
