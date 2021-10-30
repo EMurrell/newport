@@ -40,7 +40,7 @@ export default function Header() {
   return (
     <main
       id="Home"
-      className="w-full h-screen px-5 pt-4 tracking-tight bg-offwhite text-ltblack dark:text-offwhite md:pt-8 md:px-12 lg:px-28 2xl:px-32 dark:bg-ltblack"
+      className=" w-full h-screen px-5 pt-4 tracking-tight bg-offwhite text-ltblack dark:text-offwhite md:pt-8 md:px-12 lg:px-28 2xl:px-32 dark:bg-ltblack"
     >
       <motion.div
         initial="hidden"
@@ -138,7 +138,7 @@ export default function Header() {
         <div className="flex self-end pb-6 pr-12 -mt-32 md:pb-0 md:-mt-32 lg:-mt-20 md:mr-12">
           <motion.svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-36 h-36 md:w-44 md:h-44 lg:w-48 lg:h-48 "
+            className="my-8 md:my-0 w-36 h-36 md:w-44 md:h-44 lg:w-48 lg:h-48 "
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"

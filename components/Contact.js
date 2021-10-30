@@ -2,12 +2,13 @@ import Head from "next/head";
 import FadeUp from "./FadeUp";
 import { motion, useAnimation, AnimatePresence } from "framer-motion";
 import { ExternalLinkIcon } from "@heroicons/react/outline";
+import Footer from "./Footer";
 
 export default function Contact() {
   return (
     <section
       id="Contact"
-      className="flex flex-row w-full p-4 pt-16 pb-24 bg-offwhite dark:bg-ltblack font-display lg:px-28 text-ltblack dark:text-offwhite"
+      className="flex flex-row w-full p-4 pt-16 pb-24 snap-y snap-start snap-mandatory bg-offwhite dark:bg-ltblack font-display lg:px-28 text-ltblack dark:text-offwhite"
     >
       <div className="flex flex-col w-1/2 pl-4 md:pt-6 md:pl-2">
         <h1 className="self-center text-4xl font-bold md:text-5xl lg:text-7xl ">

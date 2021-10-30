@@ -11,8 +11,9 @@ module.exports = {
         ltblack: "#20201e",
         cblack: "#7a7a78",
         dkgreen: "#b9baa3",
-        offwhite: "#d6d5c9",
-        orange: "#ff6600",
+        offwhite: "#f0efe3",
+        dkorange: "#bd543a",
+        ltorange: "#ec8146",
         crimson: "#e32636",
       },
       keyframes: {
